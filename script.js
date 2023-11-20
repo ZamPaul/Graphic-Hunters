@@ -35,7 +35,7 @@ smoothscrolling()
 
 const parent = document.querySelector('.parent')
 const h = parent.getBoundingClientRect().height
-gsap.set('.sidebar',{
+gsap.set('.inner',{
     height: h
 })
 
